@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple Form(BT)</title>
+
 </head>
 <body>
-<form action="" style="margin-left: auto; margin-right:auto" style=" display: flex">
-    <table>
+<form action=""  >
+    <table class="bang">
         <tr>
             <h1>SỞ THÍCH CỦA BẠN</h1>
         </tr>
@@ -14,7 +15,7 @@
             <td>
                 <label for="name">Họ và tên</label>
             </td>
-            <td>
+            <td colspan="2">
                 <input type="text" id="name">
             </td>
         </tr>
@@ -22,8 +23,8 @@
             <td>
                 <label for="email">Email</label>
             </td>
-            <td>
-                <input type="text">
+            <td colspan="2">
+                <input type="text" id="email">
             </td>
         </tr>
         <tr>
@@ -48,8 +49,13 @@
             <td><input type="reset" value="Nhập lại"></td>
         </tr>
     </table>
-
-
+    <style>
+        .bang {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #FFFFFF;
+        }
+    </style>
 </form>
 
 </body>
